@@ -1,15 +1,15 @@
 import React from 'react';
 import Header from "./components/Header/Header";
-import TariffChoose from "./components/TariffChoose/TariffChoose";
 import {Route} from "react-router-dom";
+import TariffChooseContainer from "./components/TariffChoose/TariffChooseContainer";
 
 const App = (props) => {
     return (
         <div>
             <Header/>
-            <Route path='/tariff' render={() => <TariffChoose/>}/>
+            <Route path='/tariff' render={() => <TariffChooseContainer/>}/>
         </div>
     );
-}
+};
 
 export default App;

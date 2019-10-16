@@ -2,8 +2,9 @@ import React from "react"
 
 const TariffChoose = (props) => {
 
-    let sendChoosedTariff = () => {
-
+    let sendChoosedTariffClick = (e) => {
+        let tariff = e.target.id;
+        props.sendChoosedTariff(tariff);
     }
 
     return (
@@ -16,15 +17,18 @@ const TariffChoose = (props) => {
             <div>
                 <div>
                     Тариф 1
-                    <button id = "Child" onClick={sendChoosedTariff}>Выбрать</button>
+                    <button id="Child"
+                            onClick={sendChoosedTariffClick}>Выбрать</button>
                 </div>
                 <div>
                     Тариф 2
-                    <button id = "Student" onClick={sendChoosedTariff}>Выбрать</button>
+                    <button id="Student"
+                            onClick={sendChoosedTariffClick}>Выбрать</button>
                 </div>
                 <div>
                     Тариф 3
-                    <button id = "Adult" onClick={sendChoosedTariff}>Выбрать</button>
+                    <button id="Adult"
+                            onClick={sendChoosedTariffClick}>Выбрать</button>
                 </div>
             </div>
 
