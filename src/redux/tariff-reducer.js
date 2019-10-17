@@ -1,7 +1,8 @@
 const SEND_CHOOSED_TARIFF = 'SEND_CHOOSED_TARIFF';
 
 let initialState = {
-    choosedTariff: ""
+    choosedTariff: "",
+
 };
 
 const tariffReducer = (state = initialState, action) => {

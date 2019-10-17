@@ -1,0 +1,36 @@
+a {
+  padding-bottom: 15px;
+  margin: 0 50px 0 50px;
+  text-decoration: none;
+  color: #215968;
+}
+
+.navbar_container {
+  display: flex;
+  background-color: #F9F9F9;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.navbar_item_container {
+  flex-direction: column;
+}
+
+.active {
+  border-bottom: 3px solid #215968;
+}
+
+@media screen and (max-width: 768px) {
+  .menutext {
+    display: none;
+  }
+
+  a {
+    padding-bottom: 15px;
+    margin: 0 15px 0 15px;
+    text-decoration: none;
+    color: #215968;
+  }
+}

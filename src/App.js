@@ -5,7 +5,7 @@ import TariffChooseContainer from "./components/TariffChoose/TariffChooseContain
 
 const App = (props) => {
     return (
-        <div>
+        <div className="">
             <Header/>
             <Route path='/tariff' render={() => <TariffChooseContainer/>}/>
         </div>
