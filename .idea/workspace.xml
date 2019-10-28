@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="714ee319-2cb4-44b6-b2a5-04d010ee0746" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/configureStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/tariff-action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TariffChoose/TariffChooseContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/TariffChooseContainer/TariffChooseContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/tariff-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tariff-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/tariff-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/selectors.js" afterDir="false" />
-    </list>
+    <list default="true" id="714ee319-2cb4-44b6-b2a5-04d010ee0746" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +61,7 @@
       <workItem from="1571238875026" duration="781000" />
       <workItem from="1571249987960" duration="21978000" />
       <workItem from="1572277032996" duration="2826000" />
-      <workItem from="1572291751015" duration="5885000" />
+      <workItem from="1572291751015" duration="6171000" />
     </task>
     <servers />
   </component>
