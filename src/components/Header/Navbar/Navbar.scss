@@ -1,8 +1,10 @@
+@import "../variables";
+
 a {
   padding-bottom: 15px;
   margin: 0 50px 0 50px;
   text-decoration: none;
-  color: #215968;
+  color: $main-color;
 }
 
 .navbar_container {
@@ -31,6 +33,6 @@ a {
     padding-bottom: 15px;
     margin: 0 15px 0 15px;
     text-decoration: none;
-    color: #215968;
+    color: $main-color;
   }
 }

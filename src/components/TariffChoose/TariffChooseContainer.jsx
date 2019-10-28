@@ -2,6 +2,7 @@ import React from "react";
 import {connect} from "react-redux";
 import TariffChoose from "./TariffChoose";
 import {ChoosedTariffClick} from "../../redux/tariff-reducer";
+import {getChoosedTarif} from "../../redux/tariff-selectors";
 
 class TariffChooseContainer extends React.Component {
     render() {
@@ -11,7 +12,7 @@ class TariffChooseContainer extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
-        choosedTariff: state.tariffPage.choosedTariff
+        choosedTariff: getChoosedTarif(state)
     }
 }
 
