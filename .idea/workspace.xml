@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="714ee319-2cb4-44b6-b2a5-04d010ee0746" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/tariff-selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar/Navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TariffChoose/TariffChoose.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TariffChoose/TariffChoose.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TariffChoose/TariffChoose.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TariffChoose/TariffChoose.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TariffChoose/TariffChooseContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TariffChoose/TariffChooseContainer.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +35,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Хакатон\rate_new\src\components" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -60,6 +65,7 @@
       <workItem from="1571238875026" duration="781000" />
       <workItem from="1571249987960" duration="21978000" />
       <workItem from="1572277032996" duration="2826000" />
+      <workItem from="1572291751015" duration="2203000" />
     </task>
     <servers />
   </component>
