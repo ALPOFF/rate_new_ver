@@ -1,5 +1,5 @@
 import {combineReducers, createStore} from "redux";
-import tariffReducer from "./tariff-reducer";
+import tariffReducer from "./state/tariff-reducer";
 
 let reducers = combineReducers({
     tariffPage: tariffReducer

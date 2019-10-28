@@ -1,8 +1,8 @@
 import React from "react";
 import {connect} from "react-redux";
-import TariffChoose from "./TariffChoose";
-import {ChoosedTariffClick} from "../../redux/tariff-reducer";
-import {getChoosedTarif} from "../../redux/tariff-selectors";
+import TariffChoose from "../../components/TariffChoose/TariffChoose";
+import {getChoosedTarif} from "../../state/selectors";
+import {ChoosedTariffClick} from "../../state/tariff-action";
 
 class TariffChooseContainer extends React.Component {
     render() {
@@ -14,6 +14,6 @@ const mapStateToProps = (state) => {
     return {
         choosedTariff: getChoosedTarif(state)
     }
-}
+};
 
 export default connect(mapStateToProps, {ChoosedTariffClick})(TariffChooseContainer)

@@ -1,13 +1,12 @@
-const SEND_CHOOSED_TARIFF = 'SEND_CHOOSED_TARIFF';
+import * as types from "./types";
 
 let initialState = {
     choosedTariff: "",
-
 };
 
 const tariffReducer = (state = initialState, action) => {
     switch (action.type) {
-        case SEND_CHOOSED_TARIFF:
+        case types.SET_CHOOSED_TARIFF:
             return {
                 ...state,
                 choosedTariff: action.tarif
@@ -16,12 +15,5 @@ const tariffReducer = (state = initialState, action) => {
             return state;
     }
 };
-
-export const ChoosedTariffClick = (tarif) => {
-    return {
-        type: SEND_CHOOSED_TARIFF,
-        tarif
-    }
-}
 
 export default tariffReducer;

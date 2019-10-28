@@ -7,7 +7,7 @@ const TariffChoose = (props) => {
     let sendChoosedTariffClick = (e) => {
         let tariff = e.target.id;
         props.sendChoosedTariff(tariff);
-    }
+    };
 
     return (
         <div className="tarif_page_container">
@@ -69,6 +69,6 @@ const TariffChoose = (props) => {
             </div>
         </div>
     )
-}
+};
 
 export default TariffChoose;
