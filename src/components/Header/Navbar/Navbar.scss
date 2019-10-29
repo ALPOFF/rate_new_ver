@@ -4,16 +4,15 @@ a {
   padding-bottom: 15px;
   margin: 0 50px 0 50px;
   text-decoration: none;
-  color: $main-color;
+  color: $darkGreenColor;
 }
 
 .navbar_container {
   display: flex;
-  background-color: #F9F9F9;
-  padding: 10px 20px 0 20px;
+  background-color: $lightGrey;
+  padding-top: 10px;
   text-align: center;
   justify-content: center;
-  align-items: stretch;
 }
 
 .navbar_item_container {
@@ -36,7 +35,14 @@ a {
   a {
     padding-bottom: 15px;
     margin: 0 15px 0 15px;
-    text-decoration: none;
-    color: $main-color;
+    color: $darkGreenColor;
+  }
+
+  .navbar_item_container {
+    flex-direction: column;
+
+    img {
+      width: 60px;
+    }
   }
 }

@@ -11,7 +11,7 @@ const TariffChoose = ({sendChoosedTariff, choosedTariff}) => {
 
     return (
         <div className="tarif_page_container">
-            <div className="tarif_page">
+            <div>
                 <div className="tariff">
                     <img src={tarif_pic} alt="tarif_pic"/>
                     <h3>Выбор тарифа</h3>

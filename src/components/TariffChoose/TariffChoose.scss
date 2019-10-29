@@ -1,20 +1,22 @@
 @import "../../helpers/variables";
 
 .tariff {
-  flex: 1 0 0;
   display: flex;
-  text-align: center;
   align-items: center;
+  img {
+    width: 50px;
+    padding: 15px;
+  }
+  h3, h4 {
+    color: $darkGreenColor;
+  }
 }
-
 
 .info_container {
   @extend .tarif_page_container;
   text-align: center;
-  align-items: stretch;
-  flex-direction: row;
   flex-wrap: wrap;
-  color: $main-color;
+  color: $darkGreenColor;
 }
 
 .tarif_page_container {
@@ -22,21 +24,8 @@
   justify-content: center;
 }
 
-.tarif_page {
-  max-width: 1280px;
-}
-
-.tariff h3, h4 {
-  color: $main-color;
-}
-
-.tariff img {
-  height: 50px;
-  padding: 15px;
-}
-
 .info_container_item {
-  background-color: #F9F9F9;
+  background-color: $lightGrey;
   padding: 20px;
   margin: 20px;
 }
@@ -47,7 +36,7 @@ button {
   border-radius: 8px;
   outline: none;
   border: 0;
-  background-color: $main-color;
+  background-color: $darkGreenColor;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -60,4 +49,7 @@ button:disabled {
   cursor: default;
 }
 
+@media screen and (max-width: 768px) {
+  
+}
 
