@@ -1,1 +1,0 @@
-export const SET_CHOOSED_TARIFF = 'SET_CHOOSED_TARIFF';

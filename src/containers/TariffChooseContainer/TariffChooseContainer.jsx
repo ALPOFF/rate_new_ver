@@ -2,11 +2,12 @@ import React from "react";
 import {connect} from "react-redux";
 import TariffChoose from "../../components/TariffChoose/TariffChoose";
 import {getChoosedTarif} from "../../state/selectors";
-import {ChoosedTariffClick} from "../../state/tariff-action";
+import {ChoosedTariffClick} from "../../state/tariff-reducer";
 
 class TariffChooseContainer extends React.Component {
     render() {
-        return <TariffChoose {...this.props} sendChoosedTariff={this.props.ChoosedTariffClick} choosedTariff={this.props.choosedTariff} />
+        let {ChoosedTariffClick, choosedTariff} = this.props;
+        return <TariffChoose sendChoosedTariff={ChoosedTariffClick} choosedTariff={choosedTariff} />
     }
 }
 

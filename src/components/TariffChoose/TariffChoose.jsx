@@ -2,11 +2,11 @@ import React from "react"
 import tarif_pic from "./../../assets/images/tarif.png"
 import './TariffChoose.scss'
 
-const TariffChoose = (props) => {
+const TariffChoose = ({sendChoosedTariff, choosedTariff}) => {
 
     let sendChoosedTariffClick = (e) => {
         let tariff = e.target.id;
-        props.sendChoosedTariff(tariff);
+        sendChoosedTariff(tariff);
     };
 
     return (
@@ -26,7 +26,7 @@ const TariffChoose = (props) => {
                             после 15:00 - 110 руб.
                         </div>
                         <button
-                            disabled={props.choosedTariff === "Child"} id="Child"
+                            disabled={choosedTariff === "Child"} id="Child"
                             onClick={sendChoosedTariffClick}>Выбрать
                         </button>
                         <div>
@@ -41,7 +41,7 @@ const TariffChoose = (props) => {
                             после 15:00 - 110 руб.
                         </div>
                         <button
-                            disabled={props.choosedTariff === "Student"} id="Student"
+                            disabled={choosedTariff === "Student"} id="Student"
                             onClick={sendChoosedTariffClick}>Выбрать
                         </button>
                         <div>
@@ -56,7 +56,7 @@ const TariffChoose = (props) => {
                             после 15:00 - 150 руб.
                         </div>
                         <button
-                            disabled={props.choosedTariff === "Adult"} id="Adult"
+                            disabled={choosedTariff === "Adult"} id="Adult"
                             onClick={sendChoosedTariffClick}>Выбрать
                         </button>
                         <div>
