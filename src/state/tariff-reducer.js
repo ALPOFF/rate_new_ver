@@ -1,7 +1,7 @@
 const SET_CHOOSED_TARIFF = 'tariff/SET_CHOOSED_TARIFF';
 
 let initialState = {
-    choosedTariff: "",
+    choosedTariff: ""
 };
 
 const tariffReducer = (state = initialState, action) => {
@@ -9,17 +9,17 @@ const tariffReducer = (state = initialState, action) => {
         case SET_CHOOSED_TARIFF:
             return {
                 ...state,
-                choosedTariff: action.tarif
+                choosedTariff: action.tariff
             };
         default:
             return state;
     }
 };
 
-export const ChoosedTariffClick = (tarif) => {
+export const ChoosedTariffClick = (tariff) => {
     return {
         type: SET_CHOOSED_TARIFF,
-        tarif
+        tariff
     }
 };
 

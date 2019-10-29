@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="714ee319-2cb4-44b6-b2a5-04d010ee0746" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navbar/Navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TariffChoose/TariffChoose.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TariffChoose/TariffChoose.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TariffChoose/TariffChoose.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TariffChoose/TariffChoose.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/tariff-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tariff-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +66,7 @@
       <workItem from="1571249987960" duration="21978000" />
       <workItem from="1572277032996" duration="2826000" />
       <workItem from="1572291751015" duration="6403000" />
-      <workItem from="1572301192165" duration="4960000" />
+      <workItem from="1572301192165" duration="5302000" />
     </task>
     <servers />
   </component>
